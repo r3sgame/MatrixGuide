@@ -13,6 +13,9 @@ import {
   Routes, Navigate, Route, BrowserRouter
 } from 'react-router-dom';
 
+import logo from './Logo.png';
+import { Link } from '@mui/material';
+
 function App() {
   const theme = createTheme({
     palette: {
@@ -49,10 +52,11 @@ function App() {
       <ThemeProvider theme={theme}>
     <AppBar position="fixed">
         <Toolbar>
+        <Link href='/'><img src={logo} alt='logo' className='App-logo'/></Link>
         <Grid container justifyContent="flex-end">
           <Button className='tab' color="inherit" href='/' sx={{marginLeft: 1}}><HomeTwoToneIcon sx={{marginRight: 0.5}}/><Typography variant="h6" sx={{marginTop: 1.5}}>Home</Typography></Button>
-          <Button className='tab' color="inherit" href='/play' sx={{marginLeft: 1}}><SchoolTwoToneIcon sx={{marginRight: 0.5}}/><Typography variant="h6" sx={{marginTop: 1.5}}>Learn</Typography></Button>
-          <Button className='tab' color="inherit" href='https://discord.gg/8knRuZHKY8' sx={{marginLeft: 1}}><EditTwoToneIcon sx={{marginRight: 0.5}}/><Typography variant="h6" sx={{marginTop: 1.5}}>Practice</Typography></Button>
+          <Button className='tab' color="inherit" href='/learn' sx={{marginLeft: 1}}><SchoolTwoToneIcon sx={{marginRight: 0.5}}/><Typography variant="h6" sx={{marginTop: 1.5}}>Learn</Typography></Button>
+          <Button className='tab' color="inherit" href='/practice' sx={{marginLeft: 1}}><EditTwoToneIcon sx={{marginRight: 0.5}}/><Typography variant="h6" sx={{marginTop: 1.5}}>Practice</Typography></Button>
           </Grid>
         </Toolbar>
       </AppBar>
