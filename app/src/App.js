@@ -28,10 +28,10 @@ function App() {
     palette: {
       mode: 'dark',
       primary: {
-        main: '#9350FF',
+        main: '#f50057',
       },
       secondary: {
-        main: '#f50057',
+        main: '#ffffff14',
       },
     },
     typography: {
