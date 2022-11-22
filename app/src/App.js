@@ -20,8 +20,8 @@ import logo from './Logo.png';
 
 import Home from './Home';
 import { LearnMenu, PracticeMenu } from './Menus';
-import { Identification, Addition } from './Lessons';
-import { IdentificationPractice, AdditionPractice } from './Practices';
+import { Identification, Addition, MultiplicationByNumber, MultiplicationByMatrix } from './Lessons';
+import { IdentificationPractice, AdditionPractice, MultiplicationByNumberPractice, MultiplicationByMatrixPractice } from './Practices';
 
 function App() {
   const theme = createTheme({
@@ -41,6 +41,11 @@ function App() {
         marginBottom: 10
       },
       h6: {
+        color: 'white',
+        fontFamily: "'Sono', sans-serif;",
+        marginBottom: 10,
+      },
+      h5: {
         color: 'white',
         fontFamily: "'Sono', sans-serif;",
         marginBottom: 10,
@@ -74,6 +79,16 @@ function App() {
 <Route path="/" exact element={<Home/>} />
 <Route path="/learn" exact element={<LearnMenu/>} />
 <Route path="/practice" exact element={<PracticeMenu/>} />
+
+<Route path="/what-is-a-matrix" exact element={<Identification/>} />
+<Route path="/how-to-add-matrices" exact element={<Addition/>} />
+<Route path="/multiplying-a-matrix-by-a-number" exact element={<MultiplicationByNumber/>} />
+<Route path="/multiplying-a-matrix-by-another-matrix" exact element={<MultiplicationByMatrix/>} />
+
+<Route path="/matrix-identification" exact element={<IdentificationPractice/>} />
+<Route path="/matrix-addition" exact element={<AdditionPractice/>} />
+<Route path="/matrix-multiplication-matrix-times-number" exact element={<MultiplicationByNumberPractice/>} />
+<Route path="/matrix-multiplication-matrix-times-matrix" exact element={<MultiplicationByMatrixPractice/>} />
 
 <Route path="*" element={<Navigate to="/" replace />} />
 </Routes>
