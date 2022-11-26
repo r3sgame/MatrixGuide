@@ -1,54 +1,159 @@
 import './App.css';
 import React from 'react';
-import { Paper, Typography } from '@mui/material';
+import { Button, Paper, Typography } from '@mui/material';
+import { useState } from 'react';
 
 export function IdentificationPractice() {
+  const [answers, setAnswers] = useState(false);
+
+  function RevealAnswers() {
+    setAnswers(true);
+  }
 
   return (
     <div>
-    <Typography variant="h4" sx={{textAlign: "center"}}>Learn Menu</Typography>
+    <Typography variant="h4" sx={{textAlign: "center"}}>Practice - Matrix Identification</Typography>
 
     <Paper sx={{ width: 750, p: 2.5, flexDirection: 'row', overflow: 'auto'}}>
-    <Typography variant="p">Get started with your matrix education by clicking on the topic that you want to learn.</Typography>
+    <Typography variant="p">1. Is {'{2, 5, 6}'} a matrix?</Typography>
+    <br/>
+    <Typography variant="p">2. Is [2 1] a matrix?</Typography>
+    <br/>
+    <Typography variant="p">3. Is 1 a matrix?</Typography>
+    <br/>
+    <Typography variant="p">4. Is (2, 6) a matrix?</Typography>
+    <br/><br/>
+
+    <Button onClick={() => RevealAnswers()}><Typography>Reveal Answers</Typography></Button>
+
+    {answers && <div>
+    <br/>
+    <Typography variant="p">1. No</Typography>
+    <br/>
+    <Typography variant="p">2. Yes</Typography>
+    <br/>
+    <Typography variant="p">3. No</Typography>
+    <br/>
+    <Typography variant="p">4. No</Typography>
+    </div>}
+
     </Paper>
     </div>
   );
 }
 
 export function AdditionPractice() {
+  const [answers, setAnswers] = useState(false);
+
+  function RevealAnswers() {
+    setAnswers(true);
+  }
 
   return (
     <div>
-    <Typography variant="h4" sx={{textAlign: "center"}}>Practice Menu</Typography>
+    <Typography variant="h4" sx={{textAlign: "center"}}>Practice - Matrix Identification</Typography>
 
     <Paper sx={{ width: 750, p: 2.5, flexDirection: 'row', overflow: 'auto'}}>
-    <Typography variant="p">Do you think you've mastered a topic? Test out your skills here! MatrixQuest will automatically generate matrices to keep questions fresh.</Typography>
+    <Typography variant="p">1. Is {'{2, 5, 6}'} a matrix?</Typography>
+    <br/>
+    <Typography variant="p">2. Is [2 1] a matrix?</Typography>
+    <br/>
+    <Typography variant="p">3. Is 1 a matrix?</Typography>
+    <br/>
+    <Typography variant="p">4. Is (2, 6) a matrix?</Typography>
+    <br/><br/>
+
+    <Button onClick={() => RevealAnswers()}><Typography>Reveal Answers</Typography></Button>
+
+    {answers && <div>
+    <br/>
+    <Typography variant="p">1. No</Typography>
+    <br/>
+    <Typography variant="p">2. Yes</Typography>
+    <br/>
+    <Typography variant="p">3. No</Typography>
+    <br/>
+    <Typography variant="p">4. No</Typography>
+    </div>}
+
     </Paper>
     </div>
   );
 }
 
 export function MultiplicationByNumberPractice() {
+  const [answers, setAnswers] = useState(false);
+
+  function RevealAnswers() {
+    setAnswers(true);
+  }
 
   return (
     <div>
-    <Typography variant="h4" sx={{textAlign: "center"}}>Practice Menu</Typography>
+    <Typography variant="h4" sx={{textAlign: "center"}}>Practice - Matrix Identification</Typography>
 
     <Paper sx={{ width: 750, p: 2.5, flexDirection: 'row', overflow: 'auto'}}>
-    <Typography variant="p">Do you think you've mastered a topic? Test out your skills here! MatrixQuest will automatically generate matrices to keep questions fresh.</Typography>
+    <Typography variant="p">1. Is {'{2, 5, 6}'} a matrix?</Typography>
+    <br/>
+    <Typography variant="p">2. Is [2 1] a matrix?</Typography>
+    <br/>
+    <Typography variant="p">3. Is 1 a matrix?</Typography>
+    <br/>
+    <Typography variant="p">4. Is (2, 6) a matrix?</Typography>
+    <br/><br/>
+
+    <Button onClick={() => RevealAnswers()}><Typography>Reveal Answers</Typography></Button>
+
+    {answers && <div>
+    <br/>
+    <Typography variant="p">1. No</Typography>
+    <br/>
+    <Typography variant="p">2. Yes</Typography>
+    <br/>
+    <Typography variant="p">3. No</Typography>
+    <br/>
+    <Typography variant="p">4. No</Typography>
+    </div>}
+
     </Paper>
     </div>
   );
 }
 
 export function MultiplicationByMatrixPractice() {
+  const [answers, setAnswers] = useState(false);
+
+  function RevealAnswers() {
+    setAnswers(true);
+  }
 
   return (
     <div>
-    <Typography variant="h4" sx={{textAlign: "center"}}>Practice Menu</Typography>
+    <Typography variant="h4" sx={{textAlign: "center"}}>Practice - Matrix Identification</Typography>
 
     <Paper sx={{ width: 750, p: 2.5, flexDirection: 'row', overflow: 'auto'}}>
-    <Typography variant="p">Do you think you've mastered a topic? Test out your skills here! MatrixQuest will automatically generate matrices to keep questions fresh.</Typography>
+    <Typography variant="p">1. Is {'{2, 5, 6}'} a matrix?</Typography>
+    <br/>
+    <Typography variant="p">2. Is [2 1] a matrix?</Typography>
+    <br/>
+    <Typography variant="p">3. Is 1 a matrix?</Typography>
+    <br/>
+    <Typography variant="p">4. Is (2, 6) a matrix?</Typography>
+    <br/><br/>
+
+    <Button onClick={() => RevealAnswers()}><Typography>Reveal Answers</Typography></Button>
+
+    {answers && <div>
+    <br/>
+    <Typography variant="p">1. No</Typography>
+    <br/>
+    <Typography variant="p">2. Yes</Typography>
+    <br/>
+    <Typography variant="p">3. No</Typography>
+    <br/>
+    <Typography variant="p">4. No</Typography>
+    </div>}
+
     </Paper>
     </div>
   );

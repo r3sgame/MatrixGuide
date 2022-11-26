@@ -32,7 +32,7 @@ export function PracticeMenu() {
     
     <Grid container justifyContent="center">
     <Paper sx={{width: 750, p: 2.5, marginTop: 1}}>
-    <Typography variant="p">Do you think you've mastered a topic? Test out your skills here! MatrixQuest will automatically generate matrices to keep questions fresh.</Typography>
+    <Typography variant="p">Do you think you've mastered a topic? Test out your skills here! MatrixQuest provides high-quality questions to answer.</Typography>
     </Paper>
     </Grid>
 
