@@ -49,13 +49,13 @@ export function Identification() {
     <br/><br/>
 
     <Typography variant="h5" sx={{textAlign: "center"}}>Further Reading</Typography>
-    <Link href='https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:mat-intro/a/intro-to-matrices'>Khan Academy - Intro to Matrices</Link>
+    <Link color='#fe1392' href='https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:mat-intro/a/intro-to-matrices'>Khan Academy - Intro to Matrices</Link>
     <br/>
-    <Link href='https://byjus.com/jee/matrices/'>BYJU'S - Matrices Definition</Link>
+    <Link color='#fe1392' href='https://byjus.com/jee/matrices/'>BYJU'S - Matrices Definition</Link>
     <br/><br/>
 
     <Typography variant="h5" sx={{textAlign: "center"}}>Once You Are Ready...</Typography>
-    <Typography variant="p">Do the <Link href='matrix-identification'>Matrix Identification Practice</Link> to test your skills!</Typography>
+    <Typography variant="p">Do the <Link color='#fe1392' href='matrix-identification'>Matrix Identification Practice</Link> to test your skills!</Typography>
     </Paper>
     </div>
   );
@@ -89,13 +89,13 @@ export function Addition() {
     <br/><br/>
 
     <Typography variant="h5" sx={{textAlign: "center"}}>Further Reading</Typography>
-    <Link href='https://testbook.com/learn/maths-addition-of-matrices/'>testbook - Matrix Addition: Definition, Types, Rules, Properties and More!</Link>
+    <Link color='#fe1392' href='https://testbook.com/learn/maths-addition-of-matrices/'>testbook - Matrix Addition: Definition, Types, Rules, Properties and More!</Link>
     <br/>
-    <Link href='https://byjus.com/maths/matrix-addition/'>BYJU'S - Matrix Addition: Definition, Properties, Rules, and Examples</Link>
+    <Link color='#fe1392' href='https://byjus.com/maths/matrix-addition/'>BYJU'S - Matrix Addition: Definition, Properties, Rules, and Examples</Link>
     <br/><br/>
 
     <Typography variant="h5" sx={{textAlign: "center"}}>Once You Are Ready...</Typography>
-    <Typography variant="p">Do the <Link href='matrix-addition'>Matrix Addition Practice</Link> to test your skills!</Typography>
+    <Typography variant="p">Do the <Link color='#fe1392' href='matrix-addition'>Matrix Addition Practice</Link> to test your skills!</Typography>
     </Paper>
     </div>
   );
@@ -122,13 +122,13 @@ export function MultiplicationByNumber() {
     <br/><br/>
 
     <Typography variant="h5" sx={{textAlign: "center"}}>Further Reading</Typography>
-    <Link href='https://testbook.com/learn/maths-addition-of-matrices/'>CCSS Math Answers - Multiplication of a Matrix by a Number</Link>
+    <Link color='#fe1392' href='https://testbook.com/learn/maths-addition-of-matrices/'>CCSS Math Answers - Multiplication of a Matrix by a Number</Link>
     <br/>
-    <Link href='https://www.mathworksheetscenter.com/mathskills/matrices/MultiplyMatrixNumber/'>Math Worksheets Center - Multiply a Matrix by a Number</Link>
+    <Link color='#fe1392' href='https://www.mathworksheetscenter.com/mathskills/matrices/MultiplyMatrixNumber/'>Math Worksheets Center - Multiply a Matrix by a Number</Link>
     <br/><br/>
 
     <Typography variant="h5" sx={{textAlign: "center"}}>Once You Are Ready...</Typography>
-    <Typography variant="p">Do the <Link href='matrix-multiplication-matrix-times-number'>Simple Matrix Multiplication Practice</Link> to test your skills!</Typography>
+    <Typography variant="p">Do the <Link color='#fe1392' href='matrix-multiplication-matrix-times-number'>Simple Matrix Multiplication Practice</Link> to test your skills!</Typography>
     </Paper>
     </div>
   );
@@ -155,13 +155,13 @@ export function MultiplicationByMatrix() {
     <br/><br/>
 
     <Typography variant="h5" sx={{textAlign: "center"}}>Further Reading</Typography>
-    <Link href='https://byjus.com/maths/matrix-multiplication/'>BYJU'S - Matrix Multiplication</Link>
+    <Link color='#fe1392' href='https://byjus.com/maths/matrix-multiplication/'>BYJU'S - Matrix Multiplication</Link>
     <br/>
-    <Link href='https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:multiplying-matrices-by-matrices/a/multiplying-matrices'>Khan Academy - Multiplying Matrices</Link>
+    <Link color='#fe1392' href='https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:multiplying-matrices-by-matrices/a/multiplying-matrices'>Khan Academy - Multiplying Matrices</Link>
     <br/><br/>
 
     <Typography variant="h5" sx={{textAlign: "center"}}>Once You Are Ready...</Typography>
-    <Typography variant="p">Do the <Link href='matrix-multiplication-matrix-times-matrix'>Complex Matrix Multiplication Practice</Link> to test your skills!</Typography>
+    <Typography variant="p">Do the <Link color='#fe1392' href='matrix-multiplication-matrix-times-matrix'>Complex Matrix Multiplication Practice</Link> to test your skills!</Typography>
     </Paper>
     </div>
   );
