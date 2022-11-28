@@ -14,9 +14,12 @@ export function Identification() {
 
   return (
     <div>
+    {/*Main Header*/}
     <Typography variant="h4" sx={{textAlign: "center", marginTop: 20}}>What is a Matrix?</Typography>
 
     <Paper sx={{ width: 750, p: 2.5, flexDirection: 'row', overflow: 'auto'}}>
+
+    {/*Example of a subheader*/}
     <Typography variant="h5" sx={{textAlign: "center"}}>Definition</Typography>
     <Typography variant="p">A matrix is a two-dimensional array of numbers used extensively in linear algebra and programming (2D Arrays). They are often assigned to single-lettered captialized variables (E.g. A, B, X).</Typography>
     <br/><br/>
