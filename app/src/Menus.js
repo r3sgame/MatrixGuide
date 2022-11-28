@@ -2,9 +2,10 @@ import './App.css';
 import React from 'react';
 import { Button, Grid, Paper, Typography } from '@mui/material';
 
+//Menu to select a lesson
 export function LearnMenu() {
 
-  return (
+return (
 <div>
 <Typography variant="h4" sx={{textAlign: "center", marginTop: 10}}>Learn Menu</Typography>
 
@@ -24,6 +25,7 @@ export function LearnMenu() {
   );
 }
 
+//Menu to select a practice
 export function PracticeMenu() {
 
   return (

@@ -1,3 +1,4 @@
+/*Specify app-wide styling outside of base MUI*/
 .App {
   background-color: black;
   min-height: 100vh;
@@ -9,6 +10,7 @@
   color: white;
 }
 
+/*Manage image sizes*/
 .App-logo {
   height: 85px;
 }

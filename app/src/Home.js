@@ -3,7 +3,7 @@ import React from 'react';
 import { Link, Paper, Typography } from '@mui/material';
 
 function Home() {
-
+//Home page to explain what website is for and provide source code
   return (
     <div>
     <Typography variant="h4" sx={{textAlign: "center"}}>Welcome to [MatrixQuest]!</Typography>

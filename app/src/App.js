@@ -1,3 +1,4 @@
+//Import necessary libraries
 import './App.css';
 
 import AppBar from '@mui/material/AppBar';
@@ -23,6 +24,7 @@ import { LearnMenu, PracticeMenu } from './Menus';
 import { Identification, Addition, MultiplicationByNumber, MultiplicationByMatrix } from './Lessons';
 import { IdentificationPractice, AdditionPractice, MultiplicationByNumberPractice, MultiplicationByMatrixPractice } from './Practices';
 
+//Set website MUI theme
 function App() {
   const theme = createTheme({
     palette: {
@@ -59,6 +61,7 @@ function App() {
     },
   });
 
+//Set up website routing (specific links will take you to specific pages)
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
@@ -76,6 +79,7 @@ function App() {
       <BrowserRouter>
     <Routes>
 
+{/*Specify which routes lead to what content*/}
 <Route path="/" exact element={<Home/>} />
 <Route path="/learn" exact element={<LearnMenu/>} />
 <Route path="/practice" exact element={<PracticeMenu/>} />

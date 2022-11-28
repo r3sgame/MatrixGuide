@@ -3,7 +3,10 @@ import React from 'react';
 import { Button, Paper, Typography } from '@mui/material';
 import { useState } from 'react';
 
+//Practice for matrix identification
 export function IdentificationPractice() {
+
+  //State-based system to show answers; this variable and function will be called when the button is pressed
   const [answers, setAnswers] = useState(false);
 
   function RevealAnswers() {
@@ -42,6 +45,7 @@ export function IdentificationPractice() {
   );
 }
 
+//Practice for matrix addition
 export function AdditionPractice() {
   const [answers, setAnswers] = useState(false);
 
@@ -81,6 +85,7 @@ export function AdditionPractice() {
   );
 }
 
+//Practice for matrix-by-number multiplication
 export function MultiplicationByNumberPractice() {
   const [answers, setAnswers] = useState(false);
 
@@ -120,6 +125,7 @@ export function MultiplicationByNumberPractice() {
   );
 }
 
+//Practice for matrix-by-matrix multiplication
 export function MultiplicationByMatrixPractice() {
   const [answers, setAnswers] = useState(false);
 

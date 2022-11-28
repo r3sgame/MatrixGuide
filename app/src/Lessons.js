@@ -9,6 +9,7 @@ import matrixSubtract from './Subtraction.png'
 import matrixSimpleMultiply from './SimpleMultiplication.png'
 import matrixComplexMultiply from './ComplexMultiplication.png'
 
+//Lesson for matrix identification
 export function Identification() {
 
   return (
@@ -61,6 +62,7 @@ export function Identification() {
   );
 }
 
+//Lesson for matrix addition
 export function Addition() {
 
   return (
@@ -101,6 +103,7 @@ export function Addition() {
   );
 }
 
+//Lesson for matrix-by-number multiplication
 export function MultiplicationByNumber() {
 
   return (
@@ -134,6 +137,7 @@ export function MultiplicationByNumber() {
   );
 }
 
+//Lesson for matrix-by-matrix multiplication
 export function MultiplicationByMatrix() {
 
   return (
